@@ -120,7 +120,7 @@ def contacts(message):
     chat_id = message.chat.id
     bot.send_message(chat_id, "📞 Контакты\n- Telegram - @aghssop\n- Номер телефона - 79937403756\n- Адрес - г. Улан-Удэ, ул. Павлова 68 ГБПОУ 'БРИЭТ'")
     markup = types.InlineKeyboardMarkup()
-    code_btn = types.InlineKeyboardButton(text="Исходный код бота", url='https://sudoo.ru')
+    code_btn = types.InlineKeyboardButton(text="Исходный код бота", url='https://github.com/Agssop/Tic-Tac-Toe-/tree/main')
     markup.add(code_btn)
     time.sleep(2)
     bot.send_message(chat_id, "Вы также сможете посмотреть исходный код проекта нажав на кнопку ниже.", reply_markup=markup)
