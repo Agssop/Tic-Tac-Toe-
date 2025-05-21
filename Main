@@ -4,7 +4,6 @@ import time
 
 bot = telebot.TeleBot("8000709107:AAExeE76TwdIjTfca9Ib_im74n1nrPVeTUE")  
 
-# Храним состояние игры для каждого чата
 games = {}
 
 
